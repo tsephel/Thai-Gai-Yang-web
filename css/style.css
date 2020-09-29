@@ -46,6 +46,19 @@ hr{
 
 }
 
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 200%;
+    font-weight: 200;
+  }
+
+  h1::before,
+  h1::after{
+    width: 2rem;
+  }
+
+}
+
 
 
 
@@ -152,16 +165,33 @@ hr{
 
 .twitter {
   background: #55ACEE;
-  color: white;
+  color: #C41200;
 }
 
+@media only screen and (max-width: 768px) {
+  .icon-bar {
+    left: 94%;
+ 
+  }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+  .icon-bar {
+    left: 88%;
+ 
+  }
+
+
+}
 
 
 
 /*-------hero section------------*/
 
 .hero { 
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.png) no-repeat center center fixed;
   display: table;
   width: 100%;
   height: 100%;
@@ -232,7 +262,7 @@ hr{
 }
 
 .menu-tab { 
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/20.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/appitizer9.jpeg) no-repeat center center fixed;
   display: table;
   width: 100%;
   height: 80%;
@@ -240,6 +270,17 @@ hr{
   background-size: cover;
 }
 
+
+/*------------------delivery section----------*/
+
+.delivery { 
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/delivery.jpg) no-repeat center center fixed;
+  display: table;
+  width: 100%;
+  height: 80%;
+  position: relative;
+  background-size: cover;
+}
 
 /*-------------Services----------------------*/
 .service{
@@ -273,8 +314,31 @@ hr{
 }
 
 
+
 /*------------------menu-list section----------*/
 
+.menu-list{
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.menu-list h4{
+  color: #EF1016;
+  font-size: 200%;
+    font-weight: 300;
+    font-family: 'Courgette', cursive;
+    padding-bottom: 50px;
+}
+
+.menu-list h5{
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.menu-list p{
+  font-size: 80%;
+  font-weight: 300;
+}
 
 
 .carousel-item{
@@ -315,6 +379,15 @@ hr{
 
 .menu-list img{
   width: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .row .col-lg-4{
+      padding-top: 10px;
+    }
+
+
 }
 
 
